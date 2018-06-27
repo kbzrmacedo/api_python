@@ -1,0 +1,15 @@
+GET (.../incidente):
+
+Return all incidentes.
+---------------------------------------------------------
+GET (.../incidentes/<int:id>):
+
+Return incidente by id.
+---------------------------------------------------------
+POST (.../incidente/<int: id_atendente>/<int: id_cliente>/<string: descricao>/<string: status>/<string: datetime>):
+
+Insert incidente.
+---------------------------------------------------------
+DELETE (...incidente/delete/<int:id:
+
+Delete incidente.
